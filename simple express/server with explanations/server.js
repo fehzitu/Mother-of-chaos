@@ -85,6 +85,11 @@ if (req.method === 'GET' && req.url === '/ping') {
 
 // In express we do this way (GET method). So we can create a route as a function that we call our "server" with the ".get" function defining the method.
 server.get('/', (req, res) => {
+    // some logs to see the important part of request
+    console.log('method:\n', req.method, '\n'); // req method
+    console.log('url:\n', req.url, '\n'); // url from the req
+    console.log('header:\n', req.headers, '\n'); // header from the request
+
     res.send(JSON.stringify({
         message: 'The home page!'
     }));
