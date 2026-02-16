@@ -81,5 +81,5 @@ const port = 3000;
 
 // here we put the server to listen the port 3000
 server.listen(port, () => {
-	console.log(`Server running on port: ${port}`);
+	console.log(`Server running on port: http://localhost:${port}`);
 });

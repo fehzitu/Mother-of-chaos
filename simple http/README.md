@@ -1,4 +1,4 @@
-## 🧠 Node.js Servers Playground — From Absolute Zero
+## 🧠 Node.js Server Playground — From Absolute Zero
 A repository where I learn how servers actually work in Node.js, starting from **absolute zero**. No frameworks, no magic, just me, Node, and a lot of “why is this not working?” moments.
 
 ## 🤔 About this repo
