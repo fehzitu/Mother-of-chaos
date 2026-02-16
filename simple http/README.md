@@ -40,10 +40,3 @@ If the server starts without errors, celebrate 🎉
 ## 🧪 Example
 Server running on port 3000<br>
 Open your browser or use curl and see things happen.
-
-## 📝 Notes
-- This repo is for learning only
-- No Express. No Fastify. No shortcuts.
-- Everything is built step by step
-- Expect messy code at the beginning
-- Growth is guaranteed, perfection is not

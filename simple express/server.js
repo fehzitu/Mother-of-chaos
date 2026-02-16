@@ -64,3 +64,10 @@ server.listen(port, () => {
     console.log(`Server running on port: http://localhost:${port}`);
 });
 */
+
+/*
+Normally we would use an http module to create a server
+const http = require('http');
+But with express we only need to use the module itself
+*/
+const express = require('express');

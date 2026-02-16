@@ -28,4 +28,8 @@ Each folder is independent and self-contained. Minimal libraries, maximum curios
 ```🥀 Author’s note```**:**<br>
 This repo is for learning and fun. If you were looking for perfect, production-ready code… go back to the MDN tutorials. Here, it’s all raw JavaScript and rebellious soul.
 
+- Everything is built step by step
+- Expect messy code at the beginning
+- Growth is guaranteed, perfection is not
+
 "Hack today, professional tomorrow." — Unknown author (probably me) ❤️

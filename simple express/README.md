@@ -1,49 +1,33 @@
-## 🧠 Node.js Servers Playground — From Absolute Zero
-A repository where I learn how servers actually work in Node.js, starting from **absolute zero**. No frameworks, no magic, just me, Node, and a lot of “why is this not working?” moments.
+## 🧠 Node.js Express Server
+In this part I will continue to learn about servers but this time with express (a javascript framework), the base will be the simple server that is in the folder next door, after all, express does exactly that but in a simpler and more performant way to help with our development.
 
-## 🤔 About this repo
-This is my personal playground to:
-- Learn how servers work under the hood
-- Build HTTP servers from scratch using Node.js
-- Understand requests, responses, headers, ports, and sockets
-- Break things, fix them, and break them again
-- Slowly stop being afraid of backend concepts 😅
+- Site: https://expressjs.com/
 
-Everything starts simple. Very simple.
+## 🤔 Express?
+Our servers normally need to write each step manually right? The express shortens this walk, but it is important to know it both ways. With an http server without express we see how each thing happens and how to manipulate and work with it, the real problem is that this is not scalable and becomes too big and complex to maintain.
 
-## 💡 What lives here?
-- Basic HTTP servers
-- Raw request/response handling
-- Experiments with routes (manually, like a caveman)
-- Notes in code that future me will thank present me for
-- Code that gets better… hopefully
+``Express aspects``:
+- Simple routes
+- Organization
+- Scalable
+- Minimalist
+- Fast
+
+"Everything starts simple", and with express it gets even more.
+
+## 💡 How will it be done?
+- We will use the http server as a base
+- We will retrace all routes
+- We will rebuild the controllers
 
 ## 🧰 Tech stack
-- Node.js
-- Pure JavaScript
-- http module
-- fs (because files always show up)
-- patience
-
-## 🚀 How to run
-clone the repository:
-git clone [repo-link]
-
-enter the folder:
-cd [repo-name]
-
-run an example:
-node server.js
-
-If the server starts without errors, celebrate 🎉
+- HTTP server (as inspiration)
+- Express
+- Nodemon (maybe not)
 
 ## 🧪 Example
-Server running on port 3000<br>
-Open your browser or use curl and see things happen.
+Server running on port 3000 with express<br>
+Open your browser or use curl and see things happen (again xD).
 
 ## 📝 Notes
-- This repo is for learning only
-- No Express. No Fastify. No shortcuts.
-- Everything is built step by step
-- Expect messy code at the beginning
-- Growth is guaranteed, perfection is not
+- Maybe everything dont work xD
