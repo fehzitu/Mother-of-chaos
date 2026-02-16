@@ -64,9 +64,32 @@ But with express we only need to use the module itself
 */
 const express = require('express');
 // And now our app will be a function to start express
-const app = express();
+const server = express();
 // Defining a simple port
 const port = 3000;
+
+/*
+This way we create a simple route with common http.
+
+if (req.method === 'GET' && req.url === '/ping') {
+    // on this route i will make the 'ping-pong'
+    res.writeHead(200, {
+        'Content-Type': 'application/json'
+    });
+    res.end(JSON.stringify({
+        message: 'Pong!'
+    }));
+    return;
+};
+*/
+
+// In express we do this way (GET method). So we can create a route as a function that we call our "server" with the ".get" function defining the method.
+server.get('/', (req, res) => {
+    res.send(JSON.stringify({
+        message: 'The home page!'
+    }));
+});
+// As a function parameter we pass the route in string format and an arrow function as a callback with what the route will do.
 
 /*
 Normally in http we do it this way so that our server uses a port and serves it.
@@ -76,7 +99,7 @@ server.listen(port, () => {
 */
 
 // In express we do it this way.
-app.listen(port, () => {
+server.listen(port, () => {
     console.log(`Server running on port: http://localhost:${port}`);
 });
 
